@@ -1,6 +1,6 @@
 # Create A Catalog Calculator Using Loop And Dictionary Methods With Python
 
-#Introduction 
+Introduction 
 When working with several products, companies need a way to track the cost of each item. With the Python dictionary method, you can easily associate an item with its exact cost. Using a loop, you can prompt customers to specify each item they would like to purchase until they indicate they are done ordering, allowing you to calculate the total cost.
 ## Why use the Loop and Dictionary method? 
 Although there are several ways to associate an object or item with an exact cost, I chose to use a dictionary and a loop for several reasons. First, it is essential that my code remains simple and efficient. When companies deploy new code, they want it to be easy to understand and maintain, particularly for other developers who may need to update it in the future.
@@ -42,7 +42,7 @@ while True:
        break
 
  ```
-#Why Use a Dictionary and Loop?
+Why Use a Dictionary and Loop?
 Dictionary for Item-Price Mapping:
 
 A dictionary provides a clear and efficient way to store and retrieve product prices. The keys are the item names, and the values are the corresponding prices. This allows for easy lookups with constant-time complexity (O(1)).
