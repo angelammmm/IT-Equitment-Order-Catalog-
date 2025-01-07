@@ -40,7 +40,8 @@ while True:
        # Break out of loop
        print()
        break
-       ```
+
+ ```
 #Why Use a Dictionary and Loop?
 Dictionary for Item-Price Mapping:
 
