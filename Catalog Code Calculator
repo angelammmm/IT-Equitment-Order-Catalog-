@@ -1,0 +1,28 @@
+#define dictonary
+Catalog = {
+    "Macbook": 1000.25,
+    "Headset": 27.50,
+    "Keyboard": 38.50,
+    "Ipad": 1100.00,
+    "Desktop": 1008.50,
+    "Mouse": 18.50,
+ 
+}
+#Set total_amount to 0
+total_amount = 0
+#Loop Forever
+while True:
+ try:
+    #Get User input
+    item = input("Item: ").title()
+    #Check if item is in dictonary
+    if item in catalog:
+      #Add total item price
+      total_amount += catalog[item]
+      #Print total_amount
+      print("Total: $", end="")
+      print("{:.2f}".format(total_amount))
+ except EOFError:
+       # Break out of loop
+       print()
+       break
